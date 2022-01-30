@@ -38,7 +38,7 @@ app.use(bodyParser.urlencoded({ extended: true }));
 
 // simple route
 app.get("/", (req, res) => {
-  res.json({ message: "Welcome to application development - MERN Stack." });
+  res.json({ message: "Welcome to application development - MERN Stack Development." });
 });
 
 require("./app/routes/tutorial.routes")(app);
